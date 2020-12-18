@@ -1,0 +1,24 @@
+table{
+    border-collapse: collapse ;
+    width: 100%;
+}
+.tbl_head{
+    background-color: rgb(238, 130, 130);
+}
+.tbl_head:hover{
+    background-color: turquoise;
+}
+.tbl{
+    background-color: grey;
+}
+.tbl:hover{
+    background-color:yellow ;
+}
+.tbl:nth-child(odd){
+    background-color: white;
+}
+.tbl:hover:nth-child(odd)
+{
+    background-color: yellow;
+}
+ 
